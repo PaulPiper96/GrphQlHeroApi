@@ -90,7 +90,7 @@ if __name__ == "__main__":
     # Setup
     # -------------------------
     api_url = "https://login.hero-software.de/api/external/v7/graphql"
-    api_key_path = "key.pem"  # Ersetze dies durch deinen echten Pfad zur .pem-Datei
+    api_key_path = ""  # Ersetze dies durch deinen echten Pfad zur .pem-Datei
 
     client = HeroGraphQLClient(api_url, api_key_path)
 
